@@ -71,3 +71,11 @@ dir-structure:
 - - controllers/
 - - models/
 - - - services/authentication/basic
+
+
+TODO:
+----
+- add test for route
+- add test for models
+- add test for authentication
+- add test for app work-flow
