@@ -7,27 +7,27 @@ BreezometerCheck
 
 stack and API
 -------------
-- external API:
+* external API:
 - interact with the Breezometer service
 - store API key on machine ENV
 
-- use mongodb:
+* use mongodb:
 - populte data using a basic unit-test
 - be able to switch between real db and on memory db for testing/demo
 
-- use express
+* use express
 - decouple app instance from server
 
 
 priorities:
 ------------
-- testing: 
+* testing: 
 -- test rest api
 
-- demo:
+* demo:
 - populate db data
 
-- authentication service:
+* authentication service:
 - - use as an express middleware
 - - authentication service: custom implementation, same interface
 
@@ -66,7 +66,7 @@ dir-structure:
 -----------
 - config/db
 - testing/fixtures
-- src:
+* src:
 - - router
 - - controllers/
 - - models/
