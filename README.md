@@ -19,7 +19,7 @@ stack and API
 - decouple app instance from server
 
 
-- priorities:
+priorities:
 ------------
 - testing: 
 -- test rest api
