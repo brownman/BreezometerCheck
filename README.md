@@ -34,15 +34,18 @@ stack and API
 - ci/cd
 - typescript
 
+
 models:
 -----
 - user
 - workout
 
+
 model relationships:
 ----
 - user has many workouts
 - user can view/edit only his workouts
+
 
 app workflow:
 --------
@@ -51,6 +54,7 @@ app workflow:
 
 - authenticated request:
 - the user can only get his workout
+
 
 testing:
 ---------
