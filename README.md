@@ -28,8 +28,8 @@ priorities:
 - populate db data
 
 - authentication service:
--- use as an express middleware
--- authentication service: custom implementation, same interface
+- - use as an express middleware
+- - authentication service: custom implementation, same interface
 
 - ci/cd
 - typescript
@@ -67,7 +67,7 @@ dir-structure:
 - config/db
 - testing/fixtures
 - src:
--- router
--- controllers/
--- models/
---- services/authentication/basic
+- - router
+- - controllers/
+- - models/
+- - - services/authentication/basic
